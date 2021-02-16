@@ -22,11 +22,11 @@
         <![endif]-->
 
     <script>
-        $.get("https://raw.githubusercontent.com/jluvisi2021/Bubblegum/main/bootstrap4-bubblegum.css", function (result) {
+        $.get("https://raw.githubusercontent.com/jluvisi2021/Bubblegum/main/bootstrap4-bubblegum.min.css", function (result) {
             var blob = new Blob([result]);
             var link = document.createElement('a');
             link.href = window.URL.createObjectURL(blob);
-            link.download = "bootstrap4-bubblegum.css";
+            link.download = "bootstrap4-bubblegum.min.css";
             link.click();
         });
     </script>
